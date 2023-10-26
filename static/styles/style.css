@@ -1,0 +1,72 @@
+body{
+    background: rgb(93, 255, 101);
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background: #70caf3;
+    padding: 15px;
+}
+.link{
+    text-decoration: none;
+    color:rgb(147, 0, 245);
+}
+header .link{
+    color: #7f06af
+}
+.blogpost{
+    border: 2px solid;
+    width: 50%;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 5%;
+    background: rgb(143, 233, 162);
+}
+.date{
+    float: right;
+    color: rgb(241, 0, 0);
+}
+.nav-li{
+    display: inline-block;
+    margin-left: 10%;
+}
+.nav-li.first-child{
+    margin-left: 0%;
+}
+.content{
+    margin: 10px;
+    width: 75%;
+}
+.content h2{
+    margin-left: 25%;
+    font-size: 30px;
+}
+.post_text{
+    border-top: 4px solid rgb(168, 29, 187);
+}
+.post_text p{
+    font-size: 18px;
+    width: 75%;
+    display: inline-block;
+}
+.post_text img{
+    margin-top: 0;
+    width: 23%;
+    position: relative;
+    top: -50px;
+}
+.author{
+    color: rgb(187, 13, 13);
+    float: right;
+    font-size: 20px;
+}
+.logo{
+    width: 250px;
+    height: 125px;
+    margin-top: 10px;
+    margin-right: 15px;
+    position: absolute;
+    top: 100px;
+    left: 75%;
+}

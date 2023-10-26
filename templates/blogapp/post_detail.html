@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="content">
+    <h2> {{post.post_header}} </h2>
+    <br>
+    <div class="post_text">
+        <p>
+            {{post.post_text}}
+        </p>
+        <img src="media/{{ post.image }}" alt="not fould">
+        
+        <span class="author"> Автор: {{post.post_author}} </span>
+    </div>        
+</div>
+{% endblock %}
